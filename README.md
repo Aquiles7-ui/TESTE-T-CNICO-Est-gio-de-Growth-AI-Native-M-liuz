@@ -10,3 +10,5 @@ Orquestração: O conteúdo do CSV é lido e enviado via API para um LLM (neste 
 Engenharia de Prompt: Desenvolvi um System Prompt que atua como um Analista de Dados. Ele força a IA a processar as métricas de conversão e devolver exclusivamente um objeto JSON contendo a decisão de qual variante escalar e o porquê.
 
 Armazenamento: O script intercepta o JSON gerado e faz o append (adição) automático em um arquivo resultados_consolidados.csv (formato de banco de dados para exportação direta ao Google Sheets).
+
+https://docs.google.com/spreadsheets/d/1_Pfa5ZIoHDdNtARnDvwxgyP_dzVoeONzL18fTTHe42M/edit?usp=sharing

@@ -1,0 +1,40 @@
+Nome do Teste;Descricao;Resultado;Decisao Tomada
+Teste dataset_01_parceiroA.csv;"Foi realizado um teste A/B com três grupos de usuários para avaliar diferentes políticas de cashback. O Grupo 1 atuou como linha de base (controle) com uma política de cashback específica, enquanto o Grupo 2 e o Grupo 3 representaram variantes com diferentes taxas de cashback. O objetivo foi identificar qual política maximiza o lucro líquido do Parceiro A.";"As principais métricas observadas foram o número total de compradores, a comissão total gerada, o valor total de cashback concedido e, crucialmente, o lucro líquido (comissão - cashback). 
+
+Detalhes agregados por grupo:
+
+Grupo 1 (Política de Cashback 1):
+  Compradores: 7.597
+  Comissão Total: R$ 506.039,00
+  Cashback Total: R$ 153.607,00
+  Lucro Líquido: R$ 352.432,00
+  % Cashback sobre Comissão: 30.35%
+
+Grupo 2 (Política de Cashback 2):
+  Compradores: 7.838
+  Comissão Total: R$ 513.995,00
+  Cashback Total: R$ 256.666,00
+  Lucro Líquido: R$ 257.329,00
+  % Cashback sobre Comissão: 49.93%
+
+Grupo 3 (Política de Cashback 3):
+  Compradores: 8.590
+  Comissão Total: R$ 553.040,00
+  Cashback Total: R$ 399.761,00
+  Lucro Líquido: R$ 153.279,00
+  % Cashback sobre Comissão: 72.28%
+
+Observou-se que, apesar de o Grupo 3 ter atraído o maior número de compradores e gerado a maior comissão bruta, sua alta taxa de cashback resultou no menor lucro líquido. O Grupo 2 também apresentou um lucro líquido inferior ao Grupo 1. A variante que demonstrou o melhor desempenho financeiro em termos de lucro líquido foi o Grupo 1, com R$ 352.432,00, mantendo o menor custo de cashback em relação à comissão.";"Com base na análise do lucro líquido, o Grupo 1 deve ser escalado para 100% do tráfego. Embora as variantes do Grupo 2 e Grupo 3 possam atrair mais compradores ou gerar maior comissão bruta, seus maiores custos de cashback as tornam significativamente menos lucrativas. A política de cashback do Grupo 1 demonstrou ser a mais eficiente e rentável para o negócio neste teste A/B."
+Teste dataset_02_parceiroB.csv;"Este teste A/B comparou três diferentes variantes de ofertas de cashback (Grupo 1, Grupo 2, Grupo 3) para o Parceiro B durante um período de 61 dias (01/05/2011 a 30/06/2011). O objetivo foi avaliar qual variante otimiza tanto a conversão de compradores quanto o lucro total gerado para o negócio.";"As métricas agregadas por grupo são:
+Grupo 1: Total Compradores: 4339, Média de Compradores/Dia: 71.13, Total Lucro: R$ 203049.00, Lucro/Comprador: R$ 46.79, Cashback % sobre Vendas: 4.00%.
+Grupo 2: Total Compradores: 2795, Média de Compradores/Dia: 45.82, Total Lucro: R$ 120468.00, Lucro/Comprador: R$ 43.10, Cashback % sobre Vendas: 5.45%.
+Grupo 3: Total Compradores: 2603, Média de Compradores/Dia: 42.67, Total Lucro: R$ 125642.00, Lucro/Comprador: R$ 48.27, Cashback % sobre Vendas: 8.17%.
+
+Análise dos dados revela que o Grupo 1 demonstrou o melhor desempenho geral, gerando o maior lucro total (R$ 203049.00) e o maior número de compradores (total de 4339) durante o período do teste. Embora o Grupo 3 tenha apresentado um Lucro por Comprador ligeiramente superior (R$ 48.27), o volume significativamente maior de compradores e o lucro total do Grupo 1 o tornam a variante mais vantajosa para ser escalada.";"Recomenda-se escalar o Grupo 1 para 100% do tráfego. Esta variante provou ser a mais eficaz em maximizar o lucro total e impulsionar o volume de compradores, superando as outras variantes em termos de impacto global no negócio, apesar de oferecer uma porcentagem de cashback menor em relação às vendas."
+Teste dataset_03_parceiroC.csv;"Foi realizado um teste A/B para avaliar o impacto de duas variantes de ofertas de cashback no desempenho do Parceiro C. O Grupo 1 foi exposto a uma oferta de cashback que correspondia a aproximadamente 71.4% da comissão gerada, enquanto o Grupo 2 recebeu uma oferta de 100% de cashback sobre a comissão.";"As principais métricas observadas foram: 
+- **Total de Compradores**: O Grupo 2 atraiu ligeiramente mais compradores (4522) em comparação com o Grupo 1 (4506).
+- **Vendas Totais**: O Grupo 2 gerou um volume maior de vendas (R$ 1.775.878) em relação ao Grupo 1 (R$ 1.657.688).
+- **Comissão Bruta Total**: O Grupo 2 resultou em uma comissão bruta total maior (R$ 127.885) versus o Grupo 1 (R$ 122.978).
+- **Lucro (Comissão - Cashback)**: Esta é a métrica mais crítica. O Grupo 1 gerou um lucro de R$ 35.144, enquanto o Grupo 2, devido à sua estrutura de 100% de cashback sobre a comissão, resultou em um lucro de R$ 0. 
+
+A variante do Grupo 2, embora tenha mostrado um pequeno aumento no volume de compradores e vendas, não gerou nenhum lucro direto da comissão, tornando-a insustentável do ponto de vista da lucratividade. O Grupo 1 demonstra um modelo de cashback rentável.";"Recomendamos escalar a variante do **Grupo 1** para 100% do tráfego. Apesar do Grupo 2 ter atraído marginalmente mais compradores e gerado maiores vendas brutas, a ausência de lucro resultante da oferta de 100% de cashback o torna inviável para sustentabilidade. A variante do Grupo 1, que oferece aproximadamente 71.4% de cashback sobre a comissão, é a única que gera lucro para o negócio, sendo a opção preferível para escala."

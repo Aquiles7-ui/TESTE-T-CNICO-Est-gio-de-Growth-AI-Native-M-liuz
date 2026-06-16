@@ -1,0 +1,17 @@
+{
+  "name": "teste_meliuz",
+  "version": "1.0.0",
+  "description": "1. Arquitetura da Solução Para resolver o desafio de forma automatizada e escalável, desenvolvi uma solução baseada em Node.js. A arquitetura segue o modelo de Interface de Linha de Comando (CLI), permitindo o processamento de qualquer dataset de teste A/B sem a necessidade de alterar o código-fonte.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.4.2"
+  }
+}
